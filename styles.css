@@ -55,29 +55,29 @@ body {
   }
 
   .innerStyle {
-    border: 2px solid red;
+    border: 1px solid rgb(0, 0, 0);
     margin: 10px;
     padding: 20px;
-    background-color: bisque, 0.8;
+    background-color: rgba(194, 232, 251, 0.9);
     border-radius: 10px;
-    box-shadow: 4px 5px 3px grey;
+    box-shadow: 2px 3px 1px grey;
 }
 .text-box {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: max-content;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     color: #000;
   }
 
   .text-box2 {
-    background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.15);
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     color: #000;
   }
